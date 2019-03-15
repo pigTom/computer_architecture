@@ -5,7 +5,7 @@
 R type instruction
 
 | op | rs | rt | rd | shamt | funct |  
-| - | - |
+| - | -| - | - | - |  - |
 | 6bits | 5bits | 5bits | 5bits | 5bits | 6 bits |
 
 all R type of opcode is 0 and shamt is only used for shift operation
