@@ -36,6 +36,14 @@ J type instruction
 > - ESP : 栈地址指针寄存器
 
 - 段寄存器
+> 段寄存器也称段选择字，段选择符。除了8086的4个段外（CS,DS,ES,SS),
+> 80386还增加了两个段FS，GS，这些段寄存器都是16位的，用于不同属性内存段的寻址，它们的含义如下：
+> CS: 代码段(Code Segment)
+> DS: 数据段(Data Segment)
+> ES: 附加数据段(Extra Segment)
+> SS: 堆栈段(Stack Segment)
+> FS: 附加段
+> GS: 附加段
 - 指令指针寄存器
 - 标志寄存器
 - 系统地址寄存器
